@@ -1,6 +1,15 @@
 # bjj_atmheist
 ATM Heist resource for FiveM, QBCore, BJJ Framework
 
+- Removes ATM Prop
+- Rope Physics
+- Dynamic 3rd Eye
+- Drops money bag prop
+- Detailed Config.lua
+- Balance payout easily
+- Allow only certain vehicles
+- etc... (check config for main stuff you can tweak)
+
 
 Requires QB Core
 Please credit me if you use this code. Don't claim this resource as your own. Thanks.
