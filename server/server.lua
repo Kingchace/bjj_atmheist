@@ -24,3 +24,13 @@ RegisterNetEvent('bjj_atmheist:server:givereward', function()
         TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['markedbills'], 'add', 1)
     end
 end)
+
+QBCore.Functions.CreateCallback('bjj_atmheist:server:copcount', function(source, cb)
+	local amount = 0
+    for k, v in pairs(QBCore.Functions.GetQBPlayers()) do
+        if v.PlayerData.job.name == "police" and v.PlayerData.job.onduty then
+            amount = amount + 1
+        end
+    end
+    cb(amount)
+end)

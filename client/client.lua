@@ -64,7 +64,7 @@ function hit_timer_thread()
 end
 
 RegisterNetEvent("bjj_atmheist:client:attachcable", function()
-    QBCore.Functions.TriggerCallback('bjj_core:server:copcount', function(cops)
+    QBCore.Functions.TriggerCallback('bjj_atmheist:server:copcount', function(cops)
         if cops >= Config.required_cop_count then
             local pos = GetEntityCoords(PlayerPedId())
             TriggerServerEvent("evidence:server:CreateFingerDrop", pos)
