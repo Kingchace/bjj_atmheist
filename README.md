@@ -1,4 +1,4 @@
-# bjj_atmheist
+# bjj_atmheist by BigJohnJimmy for BJJ_FRAMEWORK
 ATM Heist resource for FiveM, QBCore, BJJ Framework
 
 - Removes ATM Prop
